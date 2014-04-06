@@ -13,6 +13,8 @@ WriteMakefile(
     PREREQ_PM      => {},
     BUILD_REQUIRES => {
         'Test::More' => 0.94,
+        'Test::Most' => 0,
+        'Test::FailWarnings' => 0,
     },
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 6.3002,
